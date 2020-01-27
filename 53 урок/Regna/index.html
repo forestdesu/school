@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Regna Bootstrap Template</title>
+  <title>МОБУ СОШ №16</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -48,29 +48,12 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
+          <li class="menu-active"><a href="#hero">Главная</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#services">Документы</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#team">Учителя</a></li>
+          <li><a href="#contact">Контакты</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -169,10 +152,9 @@
     <section id="services">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">Services</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title">Документы</h3>
         </div>
-        <div class="row">
+        <div class="row mt-5">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
               <div class="icon"><a href=""><i class="fas fa-apple-alt"></i></a></div>
@@ -226,12 +208,12 @@
     ============================-->
     <section id="call-to-action">
       <div class="container wow fadeIn">
-        <div class="row">
-          <div class="col-12 text-center text-lg-left p-0 m-0">
-            <a href="http://gia.edu.ru/ru/"><img src="http://gia66.ru/xfile-5aadf154971db.png.pagespeed.ic.zIY1f060Fs.png" class="col-3"></a>
-            <a href="http://www.ege.edu.ru/ru/"><img src="http://www.gymnasium-nur.ru/wp-content/uploads/2018/01/05_ere.png" class="col-3"></a>
-            <a href="http://fipi.ru/"><img src="http://cmkosakha.ru/wp-content/uploads/2019/03/h5.png" class="col-3"></a>
-            <a href="https://minobrnauki.sakha.gov.ru/"><img src="http://cmkosakha.ru/wp-content/uploads/2019/03/h6.png" class="col-3"></a>
+        <div class="col-12 p-0 m-0">
+          <div class="row">
+            <div class="col-3"><a href="http://gia.edu.ru/ru/"><img src="http://gia66.ru/xfile-5aadf154971db.png.pagespeed.ic.zIY1f060Fs.png" class="w-100"></a></div>
+            <div class="col-3"><a href="http://www.ege.edu.ru/ru/"><img src="http://www.gymnasium-nur.ru/wp-content/uploads/2018/01/05_ere.png" class="w-100"></a></div>
+            <div class="col-3"><a href="http://fipi.ru/"><img src="http://cmkosakha.ru/wp-content/uploads/2019/03/h5.png" class="w-100"></a></div>
+            <div class="col-3"><a href="https://minobrnauki.sakha.gov.ru/"><img src="http://cmkosakha.ru/wp-content/uploads/2019/03/h6.png" class="w-100"></a></div>
           </div>
         </div>
 
@@ -251,8 +233,8 @@
 
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">Все</li>
+              <li data-filter=".filter-app">Битва хоров</li>
               <li data-filter=".filter-card">Card</li>
               <li data-filter=".filter-logo">Logo</li>
               <li data-filter=".filter-web">Web</li>
@@ -261,16 +243,6 @@
         </div>
 
         <div class="row" id="portfolio-wrapper">
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app1.jpg" alt="">
-              <div class="details">
-                <h4>App 1</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
             <a href="">
               <img src="img/portfolio/web2.jpg" alt="">
@@ -281,14 +253,32 @@
             </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app3.jpg" alt="">
-              <div class="details">
-                <h4>App 3</h4>
-                <span>Alored dono par</span>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app" data-toggle="modal" data-target="#1f">
+              <img src="img/1f.jpg" alt="">
+              <div class="details pr-3">
+                <h4 class="text-break">Битва хоров. Путешествие по города.</h4>
               </div>
-            </a>
+          </div>
+          <div class="modal fade" id="1f" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Битва хоров. Путешествие по городам.</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div><img src="http://school16.yaguo.ru/images/stories/2019-2020/December/0812-2/21.jpg" class="w-100"></div>
+                  <p class="text-indent m-0 p-0">Очередная Битва хоров состоялась 7 декабря 2019 года при постоянных ведущих и жюри. Посвящена она песням о городах. Детские классные коллективы посвятили свои песни следующим городам: Владивосток, Вологда, Комарово, Москва, Одесса, Самара, Санкт-Петербург, Севастополь, Ташкент, Якутск… и даже палаточному городу. Ребята выбрали несколько вариантов песен о Москве, а два класса исполнили одну песню, но ни один из них не повторил другого в исполнении.</p>
+                  <p class="text-indent">Классные коллективы со своими руководителями проявили максимум выдумки и оформили  свои выступления в соответствии с тематикой, временем, учли выступления первых исполнителей. Концерт удался на славу. Среди новых элементов исполнения стали яркие костюмы, банты, бабочки, военная форма, матросские тельняшки и бескозырки, костюмы народов России, пионерская форма, маленькие флажки и флаги РС(Я) и России. Ребята отыскали и представили достопримечательности наших городов. Приятно было смотреть на патриотов нашей республики, вышедших в национальных якутских костюмах и тепло в холодную пору приглашавших в наш любимый город! Ребята  продемонстрировали  вальс и пляску.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-card">
@@ -331,16 +321,110 @@
             </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app2.jpg" alt="">
-              <div class="details">
-                <h4>App 2</h4>
-                <span>Alored dono par</span>
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app" data-toggle="modal" data-target="#2f">
+            <img src="img/2f.jpg" alt="">
+            <div class="details">
+              <h4>Битва хоров. Песни из сказок.</h4>
+            </div>
+          </div>
+          <div class="modal fade" id="2f" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Битва хоров. Песни из сказок.</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div><img src="http://school16.yaguo.ru/images/stories/2019-2020/December/0712/9.jpg" class="w-100"></div>
+                  <p class="text-indent m-0 p-0">По-настоящему предновогоднее настроение сегодня в начальных классах МОБУ сош 16: малыши спели песни из сказок. Вот уж где костюмы и маски, веселье и раздолье фантазии!</p>
+                  <b class="text-center">Итак, учащиеся младших классов спели:</b>
+                  <p class="ml-3">
+                  - Песенку бременских музыкантов.
+                  <br>
+                  - Песенку разбойников из «Бременских музыкантов».
+                  <br>
+                  - Песенку о смешном человечке.
+                  <br>
+                  - Брадобрей и Лев.
+                  <br>
+                  - Песенка о волшебниках из сказки «Новогодние приключения Маши и Вити».
+                  <br>
+                  - Сюрприз.
+                  <br>
+                  - Встаньте, дети, встаньте в круг.
+                  <br>
+                  - Брадобрей.
+                  <br>
+                  - Сказочное папурри и другие.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
               </div>
-            </a>
+            </div>
           </div>
 
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app"  data-toggle="modal" data-target="#3f">
+            <img src="http://school16.yaguo.ru/images/stories/2018-2019/March/2203/1.jpg" alt="">
+            <div class="details">
+              <h4>Битва хоров. Песни о мире.</h4>
+            </div>
+          </div>
+          <div class="modal fade" id="3f" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Битва хоров. Песни о мире.</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-indent m-0 p-0">22 марта  в начальной школе МОБУ СОШ № 16 прошел очередной этап «Битвы хоров». Темой данного мероприятия стали  «Песни о мире». Классы  подготовили разнообразные  и оригинальные номера. Родители приняли самое активное участие. Сшили замечательные костюмы, атрибуты  и реквизиты.</p>
+                  <p class="text-indent">Для первых классов битва уже не первая, но, по словам председателя жюри, руководителя школьного хора Колтовской Л. С., чувствовалось, что первоклассники стали организованно и слаженно петь. Победителем в первых классах  стал 1 «а» с песней «Из чего наш мир состоит» (классный руководитель Печенкина Е. А).</p>
+                  <div><img src="http://school16.yaguo.ru/images/stories/2018-2019/March/2203/1.jpg" class="w-100"></div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app"  data-toggle="modal" data-target="#4f">
+            <img src="http://school16.yaguo.ru/images/stories/2018-2019/March/1603/0.jpg" alt="">
+            <div class="details">
+              <h4>Битва хоров. Песни на стихи Н. Добронравова.</h4>
+            </div>
+          </div>
+          <div class="modal fade" id="4f" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Битва хоров. Песни на стихи Н. Добронравова.</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-indent m-0 p-0">Николай Николаевич Добронравов. Родился 22 ноября 1928 года в Ленинграде (ныне Санкт-Петербург). Советский и российский поэт-песенник, актер театра и кино. Лауреат Государственной премии СССР (1982).</p>
+                  <div><img src="http://school16.yaguo.ru/images/stories/2018-2019/March/1603/0.jpg" class="w-100"></div>
+                  <p class="text-indent m-0 p-0">Настоящий песенный праздник состоялся 16 марта 2019 года в МОБУ СОШ № 16 города Якутска. И не только потому, что прозвучали с детства знакомые песни, но и потому, что эти песни знает стар и млад. Их пели давно, их поют сейчас. Они не имеют времени, неподвластны моде. Их пел зал во время выступления классов!</p>
+                  <p class="text-indent">А Теперь вспомните и пропойте вместе с нами песни на стихи Н. Н. Добронравова. А еще оценим находки при исполнении и массовость этого Праздника.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          http://school16.yaguo.ru/index.php/2010-07-20-04-25-26/477-bitva-khorov-za-zdorovyj-obraz-zhizni
           <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
             <a href="">
               <img src="img/portfolio/logo1.jpg" alt="">
